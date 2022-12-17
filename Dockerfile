@@ -1,3 +1,5 @@
+FROM tomcat
+
 MAINTAINER Mruthunjaya
 
 RUN apt-get update && apt-get -y upgrade
